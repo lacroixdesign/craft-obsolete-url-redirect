@@ -18,7 +18,7 @@ http://example.com/second
 - Fetch the current, live revision of that entry.
 - Redirect (302) to that entry’s new URL.
 
-One thing to note is that the query is intentionally isolated to same prefix. In the above example, it would not redirect to an entry in a section that has a different URL prefix, such as `/blog/`.
+One thing to note is that the query is intentionally isolated to the same prefix. In the above example, it would not redirect to an entry in a section that has a different URL prefix, such as `/blog/`.
 
 ### Installation
 
